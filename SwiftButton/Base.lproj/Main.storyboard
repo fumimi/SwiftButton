@@ -26,6 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="setting.png"/>
                                 <connections>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGk-uP-BkC"/>
                                     <segue destination="Xfs-t4-DR9" kind="presentation" id="qxF-1Z-ZUP"/>
                                 </connections>
                             </button>
