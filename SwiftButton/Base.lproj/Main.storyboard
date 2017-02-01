@@ -61,6 +61,9 @@
                                 <rect key="frame" x="123" y="269" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="key.png"/>
+                                <connections>
+                                    <action selector="change:" destination="Xfs-t4-DR9" eventType="touchUpInside" id="zmo-Ze-NqR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="次の画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPS-Oc-IK0">
                                 <rect key="frame" x="0.0" y="140" width="375" height="44"/>
@@ -72,6 +75,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="changeLabel" destination="aPS-Oc-IK0" id="84g-1k-ood"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AU8-pM-7oQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
